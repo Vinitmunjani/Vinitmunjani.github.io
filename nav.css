@@ -115,49 +115,49 @@ border-radius:20px;
 
 .m1
 {
-			background-image:url("/storage/emulated/0/Download/Morbius--1035x420-8e86e010-ae85-11ec-84f1-0dfb5e35ce35.webp");
+			background-image:url("Morbius--1035x420-8e86e010-ae85-11ec-84f1-0dfb5e35ce35.webp");
 				
 }
 
 .m2
 {
-			background-image:url("/storage/emulated/0/Download/images (22).jpeg");
+			background-image:url("images (22).jpeg");
 		
 }
 .m3
 {
-			background-image:url("/storage/emulated/0/Download/images (23).jpeg");
+			background-image:url("images (23).jpeg");
 		
 }
 .m4
 {
-			background-image:url("/storage/emulated/0/Download/images (31).jpeg");
+			background-image:url("images (31).jpeg");
 				
 }
 .m5
 {
-			background-image:url("/storage/emulated/0/Download/images (1) (8).jpeg");
+			background-image:url("images (1) (8).jpeg");
 			
 }
 
 .m6
 {
-			background-image:url("/storage/emulated/0/Download/images (1) (7).jpeg");
+			background-image:url("images (1) (7).jpeg");
 				
 }
 .m7
 {
-			background-image:url("/storage/emulated/0/Download/images (1) (6).jpeg");
+			background-image:url("images (1) (6).jpeg");
 				
 }
 .m8
 {
-			background-image:url("/storage/emulated/0/Download/images (1) (4).jpeg");
+			background-image:url("images (1) (4).jpeg");
 	
 }
 .m9
 {
-			background-image:url("/storage/emulated/0/Download/images (1) (5).jpeg");
+			background-image:url("images (1) (5).jpeg");
 				
 }
 .songlist
@@ -205,27 +205,27 @@ display:flex;
 }
 .s2
 {
-				background-image:url("/storage/emulated/0/Download/images (25).jpeg");
+				background-image:url("images (25).jpeg");
 			
 }
 .s3
 {
-				background-image:url("/storage/emulated/0/Download/images (26).jpeg");
+				background-image:url("images (26).jpeg");
 			
 }
 .s4
 {
-				background-image:url("/storage/emulated/0/Download/images (27).jpeg");
+				background-image:url("images (27).jpeg");
 				
 }
 .s5
 {
-				background-image:url("/storage/emulated/0/Download/images (28).jpeg");
+				background-image:url("images (28).jpeg");
 				
 }
 .s6
 {
-				background-image:url("/storage/emulated/0/Download/images (29).jpeg");
+				background-image:url("images (29).jpeg");
 			
 }
 .social{
@@ -245,7 +245,7 @@ display:flex;
 {
 				width:50px;
 				height: 50px;
-				background-image:url("/storage/emulated/0/Download/facebook.png");				
+				background-image:url("facebook.png")
 				background-size:cover;
 }
 .instagram
@@ -266,7 +266,7 @@ display:flex;
 {
 				width:50px;
 				height: 50px;
-				background-image:url("/storage/emulated/0/Download/linkedin.png");
+				background-image:url("linkedin.png");
 				background-size:cover;
 				}
 				.social img
