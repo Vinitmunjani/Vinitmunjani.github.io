@@ -1,0 +1,276 @@
+body
+{
+				background:grey;
+}
+li
+{
+				display:inline-block;
+				align-items:center;
+			
+				
+				
+}
+
+li a {
+  display: block;
+  color:lightgreen;
+  position:relative;
+  top:10px;
+  margin:10px;
+  text-decoration: none;
+    
+}
+
+
+ul
+ {
+  overflow:hidden;
+  margin: 0;
+  padding: 0;
+  border-radius:5px;
+  background-color:#2f2f2f;
+  height:50px;
+  display:flex;
+  font-size:10px;
+  width: 100;
+}
+#songs
+ {
+ 				background-color:black;
+								font-size:15px;
+							color:#55eaff;
+							border-radius:5px;
+							display:flex;
+ }
+
+	#movies
+ {
+ 	background-color:black;
+								font-size:15px;
+							border-radius:5px;
+							display:flex;
+ }
+ #index
+ {
+ 				background-color:black;
+								font-size:15px;
+							border-radius:5px;
+							display:flex;
+ }
+
+ 		
+
+.abc
+{
+				display:flex;
+				justify-content:center;
+				flex-wrap:wrap;
+				
+}
+.card 
+{
+				margin:10px;
+				height:200px;
+				width:300px;
+				
+				border-radius:10px;
+				
+				
+}
+.card:hover{
+				color:white;
+				transform:scale(1.10);
+				transition:all 0.5s ease;
+				cursor:pointer;
+				border-radius:20px;
+				
+}
+
+.card h1
+{
+				color:white;
+			font-size:19px;
+		position: relative;
+		top:160px;
+		left:10px;
+			
+			
+}
+				
+.mov-img
+{
+			
+				height:200px;
+				margin-bottom:10px; 
+				border-radius:10px;
+				background-size:cover;
+}
+.mov-img:hover{
+box-shadow: inset 0px 0px 100px 50px #000;
+text-decoration-line:overline;
+border-radius:20px;
+				
+				
+}
+
+.m1
+{
+			background-image:url("/storage/emulated/0/Download/Morbius--1035x420-8e86e010-ae85-11ec-84f1-0dfb5e35ce35.webp");
+				
+}
+
+.m2
+{
+			background-image:url("/storage/emulated/0/Download/images (22).jpeg");
+		
+}
+.m3
+{
+			background-image:url("/storage/emulated/0/Download/images (23).jpeg");
+		
+}
+.m4
+{
+			background-image:url("/storage/emulated/0/Download/images (31).jpeg");
+				
+}
+.m5
+{
+			background-image:url("/storage/emulated/0/Download/images (1) (8).jpeg");
+			
+}
+
+.m6
+{
+			background-image:url("/storage/emulated/0/Download/images (1) (7).jpeg");
+				
+}
+.m7
+{
+			background-image:url("/storage/emulated/0/Download/images (1) (6).jpeg");
+				
+}
+.m8
+{
+			background-image:url("/storage/emulated/0/Download/images (1) (4).jpeg");
+	
+}
+.m9
+{
+			background-image:url("/storage/emulated/0/Download/images (1) (5).jpeg");
+				
+}
+.songlist
+{
+display:flex;
+				justify-content:center;
+				flex-wrap:wrap;
+				margin:10px;
+}
+
+.song
+{
+				width:100px;
+				height: 100px;
+				background:white;
+				background-size:cover;
+					border-radius:10px;
+					margin:10px;
+				
+				
+}
+.song:hover{
+				box-shadow: inset 0 0 100px black;
+		transition:all 0.5s ease;
+				cursor:pointer;
+				transform:scale(1.30);
+				border-radius :20px;
+				background-size:cover;
+}
+.song h1
+{
+			color:white;
+			font-size:13px;
+			position:relative;
+			top:30px;
+			left:15px;
+			background:transparent;
+			flex-wrap:wrap;
+			
+			
+}
+.s1
+{
+				background-image:url("/storage/emulated/0/Download/images (24).jpeg");
+}
+.s2
+{
+				background-image:url("/storage/emulated/0/Download/images (25).jpeg");
+			
+}
+.s3
+{
+				background-image:url("/storage/emulated/0/Download/images (26).jpeg");
+			
+}
+.s4
+{
+				background-image:url("/storage/emulated/0/Download/images (27).jpeg");
+				
+}
+.s5
+{
+				background-image:url("/storage/emulated/0/Download/images (28).jpeg");
+				
+}
+.s6
+{
+				background-image:url("/storage/emulated/0/Download/images (29).jpeg");
+			
+}
+.social{
+				display:flex;
+				justify-content:center;
+				position:absolute;
+			bottom:5px;
+			align-items:center;
+			margin:30px;
+			opacity:0 5;
+			
+}
+.s{
+				margin:5px;
+}
+.facbook
+{
+				width:50px;
+				height: 50px;
+				background-image:url("/storage/emulated/0/Download/facebook.png");				
+				background-size:cover;
+}
+.instagram
+{
+				width:50px;
+				height: 50px;
+				
+				background-size:cover;
+				}
+.Twitter
+{
+				width:50px;
+				height: 50px;
+				
+				background-size:cover;
+				}
+.linkedin
+{
+				width:50px;
+				height: 50px;
+				background-image:url("/storage/emulated/0/Download/linkedin.png");
+				background-size:cover;
+				}
+				.social img
+				{
+				width:50px;
+				height: 50px;
+}

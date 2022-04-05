@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<title>Page title</title>
+				<link rel="stylesheet" href="nav.css
+				">
+</head>
+<body>
+				<nav>
+								<ul>
+												<li>
+														<a href="index.html">home</a>
+										</li>
+										<li id="songs"><a href="songs.html">songs</a></li>
+								<li>	<a href="movies.html">movies</a></li>
+									
+								</ul>
+				</nav>
+	<section class="songlist">
+<div class="song s1"><h1>Raataan lambiyan</h1></div> 
+<div class="song s2"><h1>sami sami</h1></div> 
+<div class="song s3"><h1>param sundri</h1></div> 
+<div class="song s4"><h1>ranja</h1></div> 
+<div class="song s5"><h1>shrivalli</h1></div> 
+<div class="song s6"><h1>sakhiya 2</h1></div>
+
+</section>
+<script>
+				var divlenght = document.querySelectorAll('.song').length;
+console.log(divlenght);
+
+for(var i=0; i<divlenght; i++) {
+var demo = document.querySelectorAll('.song')[i].addEventListener('click',playsong);
+
+var demo = document.querySelectorAll('.song')[i].addEventListener('dblclick',pausesong);
+}
+
+var song1 = new Audio();
+song1.src = "https://open.spotify.com/track/1stiSonuKkZqhI1o9nZ9MT?si=SBjdPkdOT5GHbBac1K8HvQ&utm_source=copy-link";
+
+var song2 = new Audio();
+song2.src = "/storage/emulated/0/Download/Saami Saami Hindi - Pushpa.mp3";
+
+var song3 = new Audio();
+song3.src = "/storage/emulated/0/Download/Param Sundari - Mimi.mp3";
+
+var song4 = new Audio();
+song4.src = "/storage/emulated/0/Download/Ranjha - Shershaah.mp3";
+
+var song5 = new Audio();
+song5.src = "/storage/emulated/0/Download/Srivalli - Pushpa.mp3";
+
+var song6 = new Audio();
+song6.src = "/storage/emulated/0/Download/Sakhiyan 2 - Bell Bottom.mp3";
+
+function playsong(){
+var songId = this.innerHTML;
+console.log(songId);
+
+switch (songId) {
+case "<h1>Raataan lambiyan</h1>":
+song1.play();
+break;
+
+case "<h1>sami sami</h1>":
+song2.play();
+break;
+
+case "<h1>param sundri</h1>":
+song3.play();
+break;
+
+case "<h1>ranja</h1>":
+song4.play();
+break;
+
+case "<h1>shrivalli</h1>":
+song5.play();
+break;
+
+case "<h1>sakhiya 2</h1>":
+song6.play();
+break;
+
+
+default:
+console.log("wrong input");
+break;
+}
+}
+
+function pausesong(){
+var songId = this.innerHTML;
+console.log(songId);
+
+switch (songId) {
+case "<h1>Raataan lambiyan</h1>":
+song1.pause();
+break;
+
+case "<h1>sami sami</h1>":
+song2.pause();
+break;
+
+case "<h1>param sundri</h1>":
+song3.pause();
+break;
+
+case "<h1>ranja</h1>":
+song4.pause();
+break;
+
+case "<h1>shrivalli</h1>":
+song5.pause();
+break;
+
+case "<h1>sakhiya 2</h1>":
+song6.pause();
+break;
+
+
+default:
+console.log("wrong input");
+break;
+}
+}
+</script>
+</body>
+</html>
+																			
+																						
